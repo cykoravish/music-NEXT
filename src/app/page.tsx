@@ -1,5 +1,7 @@
-import Image from "next/image";
-
 export default function Home() {
-  return <h1 className="text-5xl text-center text-blue-300">ravish aur me</h1>;
+  return (
+    <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+      <h1 className="text-2xl text-center text-white">ravish</h1>
+    </main>
+  );
 }
